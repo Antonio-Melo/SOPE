@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <unistd.h>
+#include <fcntl.h>
+#include <errno.h>
+
+int main(int argc,char *argv[]){
+    
+}
+
+
+//f= open("persons.data",O_WRONLY | O_EXCL,0600);
+//strcpy(p[0].name,"Ana");
+//p[0].age = 20;
+//write(f,p,10*sizeof(p));
